@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    tools:context=".IntentSharingA">
+
+
+    <ImageView
+
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/marvel"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MARVEL APP"
+        android:textColor="#fff"
+        android:layout_below="@+id/image"
+        android:layout_centerHorizontal="true"
+        android:padding="30dp"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:id="@+id/textSample"
+
+
+        />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textSample"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        android:hint="@string/enter_data"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="128dp"
+        android:text="Click me" />
+</RelativeLayout>

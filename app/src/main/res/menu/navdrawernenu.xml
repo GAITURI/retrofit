@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <item
+        android:id="@+id/FirstItem"
+       android:title="First Time"
+        android:icon="@drawable/appointment"
+        />
+    <item
+        android:id="@+id/SecondItem"
+        android:title="SecondItem"
+        android:icon="@drawable/emailb"
+        />
+    <item
+        android:id="@+id/ThirdItem"
+        android:title="ThirdItem"
+        android:icon="@drawable/tracker"
+        />
+    <item
+        android:id="@+id/fourthItem"
+        android:title="FourthItem"
+        android:icon="@drawable/phone"
+        />
+
+
+</menu>
